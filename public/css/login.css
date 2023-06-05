@@ -1,0 +1,60 @@
+.portal{
+    width: 40%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 3%;
+    padding: 30px;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+}
+
+.tombol{
+    border-radius: 5px 5px 5px 5px;
+    height: 50px;
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.tombol:hover{
+    border-width: 2px;
+    border-color: white;
+}
+
+.bagian {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vid{
+    width: 75%;
+    height: 300px;
+}
+
+@media screen and (max-width: 720px) {
+    .bagian1{
+        width: 100%;
+        height: 100%;
+    }
+    .tombol{
+        width: 40%;
+        height: auto;
+        margin-top: 0%;
+    }
+    .sidemenu{
+        max-width: 250px;
+    }
+    .portal{
+        margin: 10px auto;
+        width: 100%;
+    }
+    .cover2{
+        transform: skewX(10deg);
+    }
+    body{
+        background-color: #778da9;
+    }
+    .vid{
+        width: 100%;
+        height: 300px;
+    }
+}

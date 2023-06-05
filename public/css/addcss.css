@@ -1,0 +1,92 @@
+.btn-hover:hover,
+.btn-hover:focus {
+    color: var();
+    background-color: var(--bs-blue);
+}
+
+.li-hover:hover,
+.li-hover:focus {
+    background-color: #778da9;
+    color: white;
+}
+
+.bagian {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bagian2{
+    margin-top: 105px;
+}
+
+.bagian3 {
+    margin: 5px 5px 20px;
+}
+
+.bagian4 {
+    position: relative;
+    height: 100%;
+}
+
+.bagianex {
+    margin-top: 55px;
+}
+
+@media screen and (max-width: 720px) {
+    .bagian{
+        margin-top: 10%;
+    }
+    .bagian1{
+        flex: 100%;
+    }
+    .bagian2{
+        flex: 100%;
+        margin-top: 0px;
+    }
+    .bagian3 {
+        position: unset;
+        width: auto;
+        flex: 100%;
+    }
+    .bagian4 {
+        height: 100%;
+        position: unset;
+        flex: 100%;
+        margin-top: 10px;
+    }
+    .bagian5 {
+        width: 100%;
+        flex: 100%;
+        margin-bottom: 20px;
+    }
+    .bagianex {
+        margin-top: 0px;
+    }
+}
+
+.geeks {
+    overflow: hidden;
+}
+.geeks img {
+    transition: 0.5s all ease-in-out;
+}
+.geeks:hover img {
+    transform: scale(1.5);
+}
+
+.scroll {
+    flex: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.cardsc { 
+    flex: auto;
+    flex-shrink: 0;
+}
+.cardsc img{ 
+    width: 200px;
+    height: 200px;
+    background-color: #778da9;
+}
