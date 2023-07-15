@@ -17,28 +17,28 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active geeks" data-bs-interval="3000">
+                            <img src="img/building7.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="#" class="text-decoration-none text-white link-primary">
+                                    <h5>Building 7 - International</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item geeks" data-bs-interval="3000">
+                            <img src="img/full-logo.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="#" class="text-decoration-none text-white link-primary">
+                                    <h5>Yuan Ze University</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item geeks" data-bs-interval="3000">
                             <img src="img/design.jpg" class="d-block w-100" height="300px" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <a href="#" class="text-decoration-none text-white link-primary">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carousel-item geeks" data-bs-interval="3000">
-                            <img src="img/foto.jpg" class="d-block w-100" height="300px" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="/content" class="text-decoration-none text-white link-primary">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carousel-item geeks" data-bs-interval="3000">
-                            <img src="img/pantai.jpg" class="d-block w-100" height="300px" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="#" class="text-decoration-none text-white link-primary">
-                                    <h5>Third slide label</h5>
+                                    <h5>First Sratch Design</h5>
                                     <p>Some representative placeholder content for the third slide.</p>
                                 </a>
                             </div>
@@ -58,14 +58,15 @@
                 </div>
             </div>
 
+            <!-- news -->
             <div style="margin: 10px 10px 20px;">
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col">
                         <div class="card li-hover">
                             <a href="/content" class="text-decoration-none nav-link">
-                                <div class="geeks rounded-top"><img src="img/foto.jpg" class="card-img-top" alt="..." height="170px"></div>
+                                <div class="geeks rounded-top"><img src="img/ppi.png" class="card-img-top" alt="..." height="170px"></div>
                                 <div class="card-body">
-                                    <h5 class="card-title">News title</h5>
+                                    <h5 class="card-title">IISMAVO join Yuan Ze University!</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </a>
@@ -77,9 +78,9 @@
                     <div class="col">
                         <div class="card li-hover">
                             <a href="#" class="text-decoration-none nav-link">
-                                <div class="geeks rounded-top"><img src="img/foto.jpg" class="card-img-top" alt="..." height="170px"></div>
+                                <div class="geeks rounded-top"><img src="img/pantai.jpg" class="card-img-top" alt="..." height="170px"></div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Photography Club clean the beach</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </a>
@@ -91,9 +92,9 @@
                     <div class="col">
                         <div class="card li-hover">
                             <a href="#" class="text-decoration-none nav-link">
-                                <div class="geeks rounded-top"><img src="img/foto.jpg" class="card-img-top" alt="..." height="170px"></div>
+                                <div class="geeks rounded-top"><img src="img/building.jfif" class="card-img-top" alt="..." height="170px"></div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Architechture Club design new building for YZU</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </a>
@@ -105,9 +106,9 @@
                     <div class="col">
                         <div class="card li-hover">
                             <a href="#" class="text-decoration-none nav-link">
-                                <div class="geeks rounded-top"><img src="img/foto.jpg" class="card-img-top" alt="..." height="170px"></div>
+                                <div class="geeks rounded-top"><img src="img/logo.png" class="card-img-top" alt="..." height="170px"></div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">YZU open new Departement in Kaohsiung and Teipei</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </a>
@@ -119,9 +120,9 @@
                     <div class="col">
                         <div class="card li-hover">
                             <a href="#" class="text-decoration-none nav-link">
-                                <div class="geeks rounded-top"><img src="img/foto.jpg" class="card-img-top" alt="..." height="170px"></div>
+                                <div class="geeks rounded-top"><img src="img/full-logo.png" class="card-img-top" alt="..." height="170px"></div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Greeting from GAO to IISMAVO students</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </a>
@@ -132,10 +133,10 @@
                     </div>
                     <div class="col">
                         <div class="card li-hover">
-                            <a href="#" class="text-decoration-none nav-link">
+                            <a href="" class="text-decoration-none nav-link">
                                 <div class="geeks rounded-top"><img src="img/foto.jpg" class="card-img-top" alt="..." height="170px"></div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Yuan Ze Surfing Team got a medal for the 2nd times!</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </a>

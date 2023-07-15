@@ -5,7 +5,7 @@
 <style>
     #container {
         width: 1000px;
-        margin: 150px auto;
+        margin: 150px auto 20px;
     }
 
     .ck-editor__editable[role="textbox"] {
@@ -27,14 +27,19 @@
                 <div class="card-body">
                     <h5 class="card-title">Web Programming</h5>
                     <p class="card-text">Make a website! The requirement of this homework already attached with this file and you can download it.</p>
-                    <a href="#" class="btn btn-primary">Download File</a>
-                    <div style="float: right;">
-                        <input type="file" name="myfile" class="btn btn-secondary btn-sm">
-                        <a href="#" class="btn btn-primary" type="submit">Upload File</a>
+                    <div style="display: flex; justify-content: space-between">
+                        <a href="#" class="btn btn-warning" style="float: right;">Download File</a>
+                        <div>
+                            <input type="file" name="myfile" class="btn btn-secondary btn-sm">
+                            <a href="#" class="btn btn-primary" type="submit">Upload File</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="editor">
+            <div class="card" style="padding: 10px;">
+                <div id="editor">
+                </div>
+                <button class="btn btn-primary tombol" style="float: right; margin: 10px;">Submit</button>
             </div>
             <div class="card" style="margin-top: 20px;">
                 <div class="card-body">
@@ -59,12 +64,14 @@
 
             <div class="card" style="margin-top: 20px;">
                 <div class="card-body">
-                    <h6 class="card-title">Massage</h6>
-                    <div style="width: 90%; float: left;">
-                        <p>Good, keep it up!</p>
+                    <h5 class="card-title">Massage</h5>
+                    <div style="width: 50px; border-right: 2px solid #0d1b2a; float: left; margin-right: 2%;">
+                        <img src="img/person2.jpg" width="40" height="40" class="rounded-circle" />
                     </div>
-                    <div style="width: 10%; float: right;">
-                        <span class="badge bg-primary rounded-pill">11/14/2022</span>
+                    <div>
+                        <span class="badge bg-secondary rounded-pill" style="float: right;">11/15/2022</span>
+                        Prof. Liang
+                        <p class="card-text"><small class="text-muted">Good, keep it up!!</small></p>
                     </div>
                 </div>
             </div>

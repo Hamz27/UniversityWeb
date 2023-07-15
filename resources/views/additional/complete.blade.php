@@ -13,20 +13,6 @@
                         <strong class="cal-month-name">
                             <h5>June</h5>
                         </strong>
-                        <select class="form-select cal-month-name d-none">
-                            <option value="January">January</option>
-                            <option value="February">February</option>
-                            <option value="March">March</option>
-                            <option value="April">April</option>
-                            <option value="May">May</option>
-                            <option selected value="June">June</option>
-                            <option value="July">July</option>
-                            <option value="August">August</option>
-                            <option value="September">September</option>
-                            <option value="October">October</option>
-                            <option value="November">November</option>
-                            <option value="December">December</option>
-                        </select>
                         <button class="btn cal-btn" type="button">
                             <svg class="bi" width="16" height="16">
                                 <use xlink:href="#arrow-right-short" />
@@ -52,7 +38,7 @@
                         <button class="btn cal-btn" type="button">4</button>
                         <button class="btn cal-btn" type="button">5</button>
                         <button class="btn cal-btn" type="button">6</button>
-                        <button class="btn cal-btn" type="button">7</button>
+                        <button class="btn cal-btn active" type="button" style="background-color: #0d1b2a; color: whitesmoke;">7</button>
 
                         <button class="btn cal-btn" type="button">8</button>
                         <button class="btn cal-btn" type="button">9</button>
@@ -91,60 +77,89 @@
         <!--Mail-->
         <div class="card shadow" style="margin-bottom: 15px;">
             <h4 class="card-header" style="background-color: #0d1b2a; color: white;">Mail</h4>
-            <div class="card-body">
+            <div class="card-body" style="max-height: 350px; overflow-y: auto;">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item nav-link li-hover rounded-3">
                         <a href="#" class="nav-link text-decoration-none">
                             <div style="width: 50px; border-right: 2px solid #0d1b2a; float: left; margin-right: 2%;">
-                                <img src="img/fp.jpg" width="40" height="40" class="rounded-circle" />
+                                <img src="img/person1.jpg" width="40" height="40" class="rounded-circle" />
                             </div>
                             <div>
-                                Hello
-                                <span class="badge bg-primary rounded-pill" style="float: right;">14d 15h</span>
+                                <span class="badge bg-secondary rounded-pill" style="float: right;">12/07/2022</span>
+                                Alexa
+                                <p class="card-text"><small class="text-muted">Our grup presentation plan.</small></p>
                             </div>
                         </a>
                     </li>
-                    <li class="list-group-item li-hover rounded-3">
+                    <li class="list-group-item nav-link li-hover rounded-3">
                         <a href="#" class="nav-link text-decoration-none">
                             <div style="width: 50px; border-right: 2px solid #0d1b2a; float: left; margin-right: 2%;">
-                                <img src="img/fp.jpg" width="40" height="40" class="rounded-circle" />
+                                <img src="img/person2.jpg" width="40" height="40" class="rounded-circle" />
                             </div>
                             <div>
-                                Hello
-                                <span class="badge bg-primary rounded-pill" style="float: right;">14d 15h</span>
+                                <span class="badge bg-secondary rounded-pill" style="float: right;">12/01/2022</span>
+                                Jimmy
+                                <p class="card-text"><small class="text-muted">Group project progres</small></p>
                             </div>
                         </a>
                     </li>
-                    <li class="list-group-item li-hover rounded-3">
+                    <li class="list-group-item nav-link li-hover rounded-3">
                         <a href="#" class="nav-link text-decoration-none">
                             <div style="width: 50px; border-right: 2px solid #0d1b2a; float: left; margin-right: 2%;">
-                                <img src="img/fp.jpg" width="40" height="40" class="rounded-circle" />
+                                <img src="img/person3.jpg" width="40" height="40" class="rounded-circle" />
                             </div>
                             <div>
-                                Hello
-                                <span class="badge bg-primary rounded-pill" style="float: right;">14d 15h</span>
+                                <span class="badge bg-secondary rounded-pill" style="float: right;">11/22/2022</span>
+                                Jennifer
+                                <p class="card-text"><small class="text-muted">Final Project Proposal has Finished!</small></p>
                             </div>
                         </a>
                     </li>
-                    <li class="list-group-item li-hover rounded-3">
+                    <li class="list-group-item nav-link li-hover rounded-3">
                         <a href="#" class="nav-link text-decoration-none">
                             <div style="width: 50px; border-right: 2px solid #0d1b2a; float: left; margin-right: 2%;">
-                                <img src="img/fp.jpg" width="40" height="40" class="rounded-circle" />
+                                <img src="img/person4.jpg" width="40" height="40" class="rounded-circle" />
                             </div>
                             <div>
-                                Hello
-                                <span class="badge bg-primary rounded-pill" style="float: right;">14d 15h</span>
+                                <span class="badge bg-secondary rounded-pill" style="float: right;">11/18/2022</span>
+                                Budi
+                                <p class="card-text"><small class="text-muted">Preparation for final project</small></p>
                             </div>
                         </a>
                     </li>
-                    <li class="list-group-item li-hover rounded-3">
+                    <li class="list-group-item nav-link li-hover rounded-3">
                         <a href="#" class="nav-link text-decoration-none">
                             <div style="width: 50px; border-right: 2px solid #0d1b2a; float: left; margin-right: 2%;">
-                                <img src="img/fp.jpg" width="40" height="40" class="rounded-circle" />
+                                <img src="img/person5.jpg" width="40" height="40" class="rounded-circle" />
                             </div>
                             <div>
-                                Hello
-                                <span class="badge bg-primary rounded-pill" style="float: right;">14d 15h</span>
+                                <span class="badge bg-secondary rounded-pill" style="float: right;">11/09/2022</span>
+                                Liu
+                                <p class="card-text"><small class="text-muted">Final Exam teamwork</small></p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-group-item nav-link li-hover rounded-3">
+                        <a href="#" class="nav-link text-decoration-none">
+                            <div style="width: 50px; border-right: 2px solid #0d1b2a; float: left; margin-right: 2%;">
+                                <img src="img/person1.jpg" width="40" height="40" class="rounded-circle" />
+                            </div>
+                            <div>
+                                <span class="badge bg-secondary rounded-pill" style="float: right;">11/05/2022</span>
+                                Alexa
+                                <p class="card-text"><small class="text-muted">Lets Join Industrial Visit</small></p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-group-item nav-link li-hover rounded-3">
+                        <a href="#" class="nav-link text-decoration-none">
+                            <div style="width: 50px; border-right: 2px solid #0d1b2a; float: left; margin-right: 2%;">
+                                <img src="img/person4.jpg" width="40" height="40" class="rounded-circle" />
+                            </div>
+                            <div>
+                                <span class="badge bg-secondary rounded-pill" style="float: right;">21/10/2022</span>
+                                Budi
+                                <p class="card-text"><small class="text-muted">Lets Finish Our Homework</small></p>
                             </div>
                         </a>
                     </li>
@@ -158,32 +173,66 @@
                 <h4>Homework</h4>
             </div>
             <div class="card-body">
-                <ul class="list-group list-group-flush" style="text-align: left;">
-                    <li class="list-group-item li-hover rounded-3">
-                        <a href="#" class="nav-link">
-                            An item
-                            <span class="badge bg-primary rounded-pill" style="float: right;">1d 3h</span>
+                <div class="card-body scroll" style="max-height: 350px;">
+                    <ol class="list-group" style="width: 100%;">
+                        <a href="/homework" class="nav-link text-decoration-none" style="width: 100%;">
+                            <li class="list-group-item d-flex justify-content-between align-items-start li-hover">
+                                <div class="ms-2 me-auto">
+                                    <div class="text-small">Web Programming</div>
+                                </div>
+                                <span class="badge bg-warning rounded-pill">7d 13h to Deadline</span>
+                            </li>
                         </a>
-                    </li>
-                    <li class="list-group-item li-hover rounded-3">
-                        <a href="#" class="nav-link">
-                            An item
-                            <span class="badge bg-primary rounded-pill" style="float: right;">3d 5h</span>
+                        <a href="" class="nav-link text-decoration-none" style="width: 100%;">
+                            <li class="list-group-item d-flex justify-content-between align-items-start li-hover">
+                                <div class="ms-2 me-auto">
+                                    <div class="text-small">Embedded System</div>
+                                </div>
+                                <span class="badge bg-warning rounded-pill">14d 13h to Deadline</span>
+                            </li>
                         </a>
-                    </li>
-                    <li class="list-group-item li-hover rounded-3">
-                        <a href="#" class="nav-link">
-                            An item
-                            <span class="badge bg-primary rounded-pill" style="float: right;">7d 19h</span>
+                        <a href="" class="nav-link text-decoration-none" style="width: 100%;">
+                            <li class="list-group-item d-flex justify-content-between align-items-start li-hover">
+                                <div class="ms-2 me-auto">
+                                    <div class="text-small">Virtual Reality</div>
+                                </div>
+                                <span class="badge bg-warning rounded-pill">19d 13h to Deadline</span>
+                            </li>
                         </a>
-                    </li>
-                    <li class="list-group-item li-hover rounded-3">
-                        <a href="#" class="nav-link">
-                            An item
-                            <span class="badge bg-primary rounded-pill" style="float: right;">14d 15h</span>
+                        <a href="" class="nav-link text-decoration-none" style="width: 100%;">
+                            <li class="list-group-item d-flex justify-content-between align-items-start li-hover">
+                                <div class="ms-2 me-auto">
+                                    <div class="text-small">Scince & Technology English</div>
+                                </div>
+                                <span class="badge bg-warning rounded-pill">20d 13h to Deadline</span>
+                            </li>
                         </a>
-                    </li>
-                </ul>
+                        <a href="" class="nav-link text-decoration-none" style="width: 100%;">
+                            <li class="list-group-item d-flex justify-content-between align-items-start li-hover">
+                                <div class="ms-2 me-auto">
+                                    <div class="text-small">Computer Network</div>
+                                </div>
+                                <span class="badge bg-warning rounded-pill">20d 13h to Deadline</span>
+                            </li>
+                        </a>
+                        <a href="" class="nav-link text-decoration-none" style="width: 100%;">
+                            <li class="list-group-item d-flex justify-content-between align-items-start li-hover">
+                                <div class="ms-2 me-auto">
+                                    <div class="text-small">Mandarin Chines I</div>
+                                </div>
+                                <span class="badge bg-warning rounded-pill">22d 13h to Deadline</span>
+                            </li>
+                        </a>
+                        <a href="" class="nav-link text-decoration-none" style="width: 100%;">
+                            <li class="list-group-item d-flex justify-content-between align-items-start li-hover">
+                                <div class="ms-2 me-auto">
+                                    <div class="text-small">Decision Support System</div>
+                                </div>
+                                <span class="badge bg-warning rounded-pill">24d 13h to Deadline</span>
+                            </li>
+                        </a>
+                    </ol>
+                </div>
             </div>
         </div>
     </div>

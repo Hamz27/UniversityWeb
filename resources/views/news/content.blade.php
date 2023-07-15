@@ -7,9 +7,9 @@
         <div class="col-md-8 bagian1" style="margin-top: 150px;">
             <div style="margin: 10px 10px 20px;">
                 <div class="card shadow">
-                    <img src="img/foto.jpg" class="card-img-top" alt="..." height="300px">
+                    <img src="img/ppi.png" class="card-img-top" alt="..." height="300px">
                     <div class="card-body">
-                        <h3>News Title</h3>
+                        <h3>IISMAVO join Yuan Ze University!</h3>
                         <div class="card-text">
                             <p class="text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis dis. Feugiat sed lectus vestibulum mattis ullamcorper velit sed. Elementum eu facilisis sed odio. Amet nisl purus in mollis nunc sed id semper risus. Eget egestas purus viverra accumsan in nisl. Libero justo laoreet sit amet cursus sit amet dictum sit. Non blandit massa enim nec. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Lobortis mattis aliquam faucibus purus in. Nisl suscipit adipiscing bibendum est ultricies integer quis. Eget nunc lobortis mattis aliquam. Sed faucibus turpis in eu. Ut porttitor leo a diam sollicitudin tempor.</p>
@@ -19,8 +19,9 @@
                             <p>Egestas maecenas pharetra convallis posuere morbi leo urna. Suscipit tellus mauris a diam maecenas sed enim. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Nibh venenatis cras sed felis eget. Et tortor consequat id porta nibh venenatis cras sed. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Sit amet massa vitae tortor condimentum lacinia quis vel eros. Sed adipiscing diam donec adipiscing. Massa tincidunt dui ut ornare lectus sit amet est. Viverra nibh cras pulvinar mattis. Rhoncus urna neque viverra justo. Egestas pretium aenean pharetra magna ac placerat vestibulum. Blandit turpis cursus in hac. Velit aliquet sagittis id consectetur purus. Tortor posuere ac ut consequat semper viverra nam libero. Sapien eget mi proin sed. Proin libero nunc consequat interdum varius sit amet mattis. Eget felis eget nunc lobortis mattis aliquam faucibus purus.</p>
                         </div>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer" style="display: flex; justify-content: space-between;">
                         <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">- Global Office Affairs</small>
                     </div>
                 </div>
             </div>

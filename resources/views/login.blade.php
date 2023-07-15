@@ -17,7 +17,7 @@
             height: 100%;
             position: fixed;
             z-index: -1;
-            background-image: url(img/building.jfif);
+            background-image: url(img/building7.png);
             background-size: cover;
             top: 0;
             right: 0;
@@ -59,13 +59,13 @@
     <div class="cover2"></div>
     <div class="portal bagian1">
         <div style="width: 100%; float: left;">
-            <img src="img/portal.png" style="width: 100px; float: left; margin-right: 10px;">
+            <img src="img/portal.png" style="height: 100px; float: left; margin-right: 10px;">
             <strong style="font-size: 500%; width: 60%; float: left;">Portal</strong>
         </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nisi quisquam excepturi, odio incidunt, recusandae beatae dolore facilis ducimus distinctio voluptate. Quibusdam odit harum corporis quaerat molestias ea placeat nesciunt?</p>
         <div style="display: inline-flex;">
             <button class="btn btn-primary tombol" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><strong>Sign In</strong></button>
-            <button class="btn btn-primary tombol" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight"><strong>Sign Up</strong></button>
+            <button class="btn btn tombol" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight" style="border-color: whitesmoke; color: whitesmoke;"><strong>Sign Up</strong></button>
         </div>
         <iframe class="vid" style="margin-top: 20px;" src="https://www.youtube.com/embed/wAZdRs2lDIQ?autoplay=1&mute=1"></iframe>
     </div>
